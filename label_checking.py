@@ -33,9 +33,9 @@ class ObjectDetector:
 class_names = ['bus', 'car', 'rickshaw', 'CNG', 'motorbike', 'truck', 'pickup', 'minivan', 'suv', 'van', 'bicycle', 'auto rickshaw', 'human hauler', 'wheelbarrow', 'minibus', 'ambulance', 'taxi', 'army vehicle', 'scooter', 'policecar', 'garbagevan']
 detector = ObjectDetector(class_names)
 #SOURCES
-image_folder = '/content/drive/MyDrive/Thesis_dataset/images/train'
-annotation_folder = '/content/drive/MyDrive/Thesis_dataset/extra/missing_labels'
-output_folder = '/content/drive/MyDrive/Thesis_dataset/extra/missing_annotation'
+image_folder = '/content/drive/MyDrive/images/train'
+annotation_folder = '/content/drive/MyDrive/extra/missing_labels'
+output_folder = '/content/drive/MyDrive/extra/missing_annotation'
 os.makedirs(output_folder, exist_ok=True)
 
 #ITERATE IN THE FOLDER
